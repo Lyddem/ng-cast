@@ -1,7 +1,4 @@
-angular.module('video-player')
-  .controller('videoCtrl', function() {
-
-  })
+  angular.module('video-player')
 
   .component('videoPlayer', {
     // TODO
@@ -9,7 +6,7 @@ angular.module('video-player')
       video: '<'
     },
 
-    controller: 'videoCtrl',
+
 
 
     templateUrl: 'src/templates/videoPlayer.html'
