@@ -15,11 +15,11 @@ angular.module('video-player')
       youTube.search(query, (response) => {
         this.result(response);
       });
-    }
+    };
 
     this.searchClick = (input) => {
       this.searchyouTube(input);
-    }
+    };
 
     this.searchyouTube();
   })
