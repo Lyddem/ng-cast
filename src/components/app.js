@@ -1,5 +1,5 @@
 angular.module('video-player')
-  .controller('appCtrl', function($scope) {
+  .controller('appCtrl', function(youTube) {
     this.videos = window.exampleVideoData;
     this.selectedVideo = this.videos[0];
 
@@ -7,6 +7,10 @@ angular.module('video-player')
       console.log('video clicked', video);
       this.selectedVideo = video;
     };
+
+    this.searchyouTube = youTube;
+
+
 
   })
 
